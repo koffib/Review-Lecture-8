@@ -1,30 +1,70 @@
 body{
 
 }
-*{border: 1px solid rgb(212, 212, 212)
-}
+
 
 #header{
     display:grid;
-    grid-template-rows:  80% auto;
+    grid-template-rows:  90% auto;
     text-align: center;
 }
 
 #navigation{
-    font-size : .6m
+    font-size : .8rem;
+    border-top:  1px solid grey;
+    padding-top: 2px ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-style: italic;
+    
+    
+    
+}
+
+.nav-buttons{
+    text-decoration: none;
+    padding :3px;
+    color:black;
 }
 
 #hero-image{
-    height: 150px ;
+    height: 600px ;
     background-color: red;
-
+    background-image: url("https://i.redd.it/oz99bww31ds41.jpg");
+    background-size: cover;
+    background-position-y: -30px ;
 }
 
 #content{
-    height: 100px;
+    height: 1000px;
     background-color: blue;
     width: 90%;
     margin: 0 auto;
     display :grid;
     grid-template-columns: 70% 30% ;
+}
+
+#content-article{
+    margin-top: -30px;
+    background-color: white;
+    box-shadow: -1px 1px 6px black;
+    padding: 10px;
+}
+
+
+.content-article-post-content{
+    margin-top: 10px;
+    font-size: 2rem;
+}
+
+.content-article-post-title{
+    border-bottom: 1px  solid grey;
+}
+
+.content-article-post-link{
+    color: red;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic ;
+
 }
